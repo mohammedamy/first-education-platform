@@ -1,8 +1,8 @@
 export const ar = {
   // Brand
-  brandName: 'First',
-  brandNameAr: 'فِيرست',
-  brandTagline: 'منصتك الرائدة لاجتياز التحصيلي، القدرات، والتميز الجامعي',
+  brandName: 'Next Target',
+  brandNameAr: 'نكست تارجت',
+  brandTagline: 'منصتك لاجتياز التحصيلي، القدرات، والتميز الجامعي — حدد هدفك وتفوق',
 
   // Navigation
   nav: {
@@ -11,7 +11,7 @@ export const ar = {
     subjects: 'المواد',
     teachers: 'المعلمون',
     howItWorks: 'كيف نساعدك؟',
-    whyFirst: 'لماذا First؟',
+    whyFirst: 'لماذا Next Target؟',
     learningExp: 'تجربة التعلّم',
     faq: 'الأسئلة الشائعة',
     signIn: 'تسجيل الدخول',
@@ -76,7 +76,7 @@ export const ar = {
     inTracks: 'متوفرة في المسارات:',
   },
 
-  // How First Works Section
+  // How Next Target Works Section
   howItWorks: {
     sectionBadge: 'رحلة الطالب',
     title: 'كيف نساعدك على تحقيق هدفك؟',
@@ -85,12 +85,12 @@ export const ar = {
     tryAssessmentCta: 'جرّب اختبار تحديد المستوى التجريبي',
   },
 
-  // Why First Section
+  // Why Next Target Section
   whyFirst: {
     sectionBadge: 'فلسفتنا التعليمية',
     title: 'التعلّم ليس كثرة مصادر. التعلّم هو وضوح الطريق.',
     subtitle:
-      'صُممت First لتتجاوز فوضى المذكرات العشوائية والتراكمات الدراسية، مقدمة بيئة تعليمية تركز على الفهم الحقيقي والأثر المباشر في درجتك.',
+      'صُممت Next Target لتتجاوز فوضى المذكرات العشوائية والتراكمات الدراسية، مقدمة بيئة تعليمية تركز على الفهم الحقيقي والوصول المباشر إلى درجتك المستهدفة.',
   },
 
   // Teachers Preview Section
@@ -102,8 +102,8 @@ export const ar = {
     demoNotice: 'نموذج تجريبي — بيانات استعراضية للمرحلة التأسيسية',
     exploreTeachers: 'استكشف المعلمين',
     joinAsTeacherTitle: 'هل أنت معلّم ذو خبرة؟',
-    joinAsTeacherDesc: 'انضم إلى شبكة معلّمي First وشارك في بناء جيل جديد من المتفوقين.',
-    joinAsTeacherBtn: 'انضم إلى First كمعلّم',
+    joinAsTeacherDesc: 'انضم إلى شبكة معلّمي Next Target وشارك في بناء جيل جديد من المتفوقين.',
+    joinAsTeacherBtn: 'انضم إلى Next Target كمعلّم',
     specialtyLabel: 'التخصص الدقيق:',
     experienceLabel: 'الخبرة الميدانية:',
   },
@@ -139,7 +139,7 @@ export const ar = {
   faq: {
     sectionBadge: 'إجابات مباشرة',
     title: 'الأسئلة الشائعة',
-    subtitle: 'كل ما تحتاج لمعرفته حول منصة First، مساراتها، وكيفية الاستفادة منها.',
+    subtitle: 'كل ما تحتاج لمعرفته حول منصة Next Target، مساراتها، وكيفية الاستفادة منها.',
     contactPrompt: 'هل لديك سؤال آخر؟',
     contactBtn: 'تواصل مع فريق الدعم',
   },
@@ -164,8 +164,8 @@ export const ar = {
     terms: 'الشروط والأحكام',
     privacy: 'سياسة الخصوصية',
     safety: 'ميثاق الأمان والبيانات',
-    copyright: 'جميع الحقوق محفوظة لمنصة First © 2026',
-    temporaryNotice: 'منصة First — النسخة التجريبية الأولى (المرحلة 1)',
+    copyright: 'جميع الحقوق محفوظة لمنصة Next Target © 2026',
+    temporaryNotice: 'منصة Next Target — النسخة الأولى (المرحلة 1)',
     saudiVisionNotice: 'فخورون بتمكين الكفاءات التعليمية الوطنية في المملكة العربية السعودية',
   },
 
@@ -174,7 +174,7 @@ export const ar = {
     close: 'إغلاق',
     trackDetailsTitle: 'تفاصيل المسار الدراسي',
     subjectDetailsTitle: 'تفاصيل الخطة الدراسية للمادة',
-    teacherApplyTitle: 'انضمام كمعلم إلى منصة First',
+    teacherApplyTitle: 'انضمام كمعلم إلى منصة Next Target',
     teacherApplySubtitle: 'يسرنا استقبال طلبات المعلمين المتميزين للمرحلة القادمة.',
     namePlaceholder: 'الاسم الكامل',
     emailPlaceholder: 'البريد الإلكتروني',
@@ -184,14 +184,14 @@ export const ar = {
     applicationSuccess: 'شكراً لاهتمامك! تم تسجيل بياناتك وسيتواصل معك فريق الاستقطاب قريباً.',
     futureAccountTitle: 'ميزة قادمة في المرحلة التالية',
     futureAccountDesc:
-      'نعمل حالياً على تطوير هذه البوابة ضمن خارطة طريق First ليتم إطلاقها قريباً بميزات متكاملة.',
+      'نعمل حالياً على تطوير هذه البوابة ضمن خارطة طريق Next Target ليتم إطلاقها قريباً بميزات متكاملة.',
     demoNoticeBadge: 'نسخة استعراضية تجريبية',
   },
 
   // Assessment Quiz Demo Modal
   quizModal: {
     title: 'تحديد المستوى التجريبي السريع',
-    subtitle: 'أجب على هذا السؤال النموذجي لتكتشف كيف يحلل نظام First نقاط قوتك وضعفك فورياً.',
+    subtitle: 'أجب على هذا السؤال النموذجي لتكتشف كيف يحلل نظام Next Target نقاط قوتك وضعفك فورياً.',
     questionMath: 'إذا كانت د(س) = 2س² - 4س + 1، فما هي قيمة المشتقة د\'(3)؟',
     optionA: '8',
     optionB: '12',
@@ -200,6 +200,6 @@ export const ar = {
     correctExplanation: 'أحسنت! المشتقة الأولى هي د\'(س) = 4س - 4. عند التعويض بـ 3: (4 × 3) - 4 = 12 - 4 = 8.',
     submit: 'تحقق من النتيجة',
     congrats: 'إجابة صحيحة ومتقنة!',
-    encouragement: 'يحدد نظام First مسارك بدقة لتبدأ من المستوى الذي يوفر وقتك ويعزز نقاط ضعفك.',
+    encouragement: 'يحدد نظام Next Target مسارك بدقة لتبدأ من المستوى الذي يوفر وقتك ويعزز نقاط ضعفك.',
   },
 };

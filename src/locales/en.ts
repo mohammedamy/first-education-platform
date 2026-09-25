@@ -1,8 +1,8 @@
 export const en = {
   // Brand
-  brandName: 'First',
-  brandNameAr: 'First',
-  brandTagline: 'Your premier platform for Tahsili, Qudrat, and University Academic Excellence',
+  brandName: 'Next Target',
+  brandNameAr: 'نكست تارجت',
+  brandTagline: 'Your premier platform for Tahsili, Qudrat, and University Academic Excellence — Hit Your Target',
 
   // Navigation
   nav: {
@@ -11,7 +11,7 @@ export const en = {
     subjects: 'Subjects',
     teachers: 'Teachers',
     howItWorks: 'How It Works',
-    whyFirst: 'Why First',
+    whyFirst: 'Why Next Target',
     learningExp: 'Learning Experience',
     faq: 'FAQ',
     signIn: 'Sign In',
@@ -76,21 +76,21 @@ export const en = {
     inTracks: 'Available in Tracks:',
   },
 
-  // How First Works Section
+  // How Next Target Works Section
   howItWorks: {
     sectionBadge: 'Student Journey',
-    title: 'How First Guides Your Success',
+    title: 'How Next Target Guides Your Success',
     subtitle:
       'A four-step framework taking you from exam confusion to clarity, consistency, and top percentiles.',
     tryAssessmentCta: 'Try Quick Assessment Demo',
   },
 
-  // Why First Section
+  // Why Next Target Section
   whyFirst: {
     sectionBadge: 'Our Philosophy',
     title: "Learning isn't about hoarding resources. It's about clarity of the path.",
     subtitle:
-      'First was built to eliminate chaotic PDFs and disconnected summaries, providing a unified learning journey centered on deep understanding and measurable score gains.',
+      'Next Target was built to eliminate chaotic PDFs and disconnected summaries, providing a unified learning journey centered on deep understanding and reaching your target scores.',
   },
 
   // Teachers Preview Section
@@ -102,8 +102,8 @@ export const en = {
     demoNotice: 'Demo Profile — Illustrative prototype data for Phase 1 launch',
     exploreTeachers: 'View All Mentors',
     joinAsTeacherTitle: 'Are You an Inspiring Educator?',
-    joinAsTeacherDesc: 'Join the First mentor network and help cultivate the next generation of Saudi high achievers.',
-    joinAsTeacherBtn: 'Join First as a Teacher',
+    joinAsTeacherDesc: 'Join the Next Target mentor network and help cultivate the next generation of Saudi high achievers.',
+    joinAsTeacherBtn: 'Join Next Target as a Teacher',
     specialtyLabel: 'Specialty:',
     experienceLabel: 'Experience:',
   },
@@ -116,10 +116,10 @@ export const en = {
       'An interactive preview of the student cockpit: concise high-yield video lectures, immediate question feedback, and real-time skill analytics.',
     tabOverview: 'Student Cockpit',
     tabQuiz: 'Smart Question Bank',
-    tabMasterclass: 'Upcoming Masterclass',
+    tabMasterclass: 'Upcoming Live Masterclass',
     courseProgressTitle: 'Track Overall Progress',
     upcomingLessonTitle: 'Upcoming Live Masterclass',
-    quizQuestionTitle: "Today's Qiyas Practice Question",
+    quizQuestionTitle: "Today's Practice Question",
     submitAnswer: 'Verify Answer',
     recommendedNextStepTitle: 'Recommended Next Step',
     recommendedNextStepDesc: 'Complete formative mastery test on Quadratic Functions & Differential Equations.',
@@ -139,7 +139,7 @@ export const en = {
   faq: {
     sectionBadge: 'Quick Answers',
     title: 'Frequently Asked Questions',
-    subtitle: 'Everything you need to know about the First platform, available tracks, and upcoming releases.',
+    subtitle: 'Everything you need to know about Next Target, available tracks, and upcoming releases.',
     contactPrompt: 'Have more questions?',
     contactBtn: 'Contact Student Support',
   },
@@ -164,8 +164,8 @@ export const en = {
     terms: 'Terms of Service',
     privacy: 'Privacy Policy',
     safety: 'Data & Security Charter',
-    copyright: 'All rights reserved. First Education Technologies © 2026',
-    temporaryNotice: 'First Platform — Phase 1 Prototype Preview',
+    copyright: 'All rights reserved. Next Target Education Technologies © 2026',
+    temporaryNotice: 'Next Target Platform — Phase 1 Release',
     saudiVisionNotice: 'Proudly empowering national academic potential across the Kingdom of Saudi Arabia',
   },
 
@@ -174,7 +174,7 @@ export const en = {
     close: 'Close',
     trackDetailsTitle: 'Track Curriculum Details',
     subjectDetailsTitle: 'Subject Learning Plan',
-    teacherApplyTitle: 'Apply as a Mentor on First',
+    teacherApplyTitle: 'Apply as a Mentor on Next Target',
     teacherApplySubtitle: 'We welcome passionate and certified educators for our upcoming cohort.',
     namePlaceholder: 'Full Name',
     emailPlaceholder: 'Email Address',
@@ -191,7 +191,7 @@ export const en = {
   // Assessment Quiz Demo Modal
   quizModal: {
     title: 'Fast Level Diagnostic Demo',
-    subtitle: 'Answer this sample question to see how First instantly detects your strength and areas of improvement.',
+    subtitle: 'Answer this sample question to see how Next Target instantly detects your strength and areas of improvement.',
     questionMath: 'If f(x) = 2x² - 4x + 1, what is the value of the derivative f\'(3)?',
     optionA: '8',
     optionB: '12',
@@ -200,6 +200,6 @@ export const en = {
     correctExplanation: 'Correct! The first derivative is f\'(x) = 4x - 4. Substituting x = 3 yields: (4 × 3) - 4 = 12 - 4 = 8.',
     submit: 'Check My Answer',
     congrats: 'Well done! Spot-on answer.',
-    encouragement: 'First analyzes your accuracy and speed to tailor your personalized study plan, eliminating wasted study time.',
+    encouragement: 'Next Target analyzes your accuracy and speed to tailor your personalized study plan, eliminating wasted study time.',
   },
 };

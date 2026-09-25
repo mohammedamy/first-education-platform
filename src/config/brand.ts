@@ -1,15 +1,15 @@
 import type { PaymentProviderConfig } from '../types';
 
 export const BRAND_CONFIG = {
-  // Temporary Brand Identifier (easily swappable)
-  nameEn: 'First',
-  nameAr: 'فِيرست',
-  legalName: 'First Education Technologies',
-  taglineAr: 'منصتك الرائدة لاجتياز التحصيلي، القدرات، والتميز الجامعي',
-  taglineEn: 'Your premier platform for Tahsili, Qudrat, and University Academic Excellence',
-  shortBioAr: 'منصة تعليمية سعودية مصممة لمساعدة الطلاب على التفوق في اختبارات قياس والمساقات الجامعية من خلال مسارات ذكية ومعلمين متخصصين.',
-  shortBioEn: 'A modern Saudi educational platform designed to empower students in standardized testing and university courses with smart structured tracks and expert mentors.',
-  supportEmail: 'contact@first-edu.sa',
+  // Brand Identifier
+  nameEn: 'Next Target',
+  nameAr: 'نكست تارجت',
+  legalName: 'Next Target Education Technologies',
+  taglineAr: 'منصتك الذكية لاجتياز التحصيلي، القدرات، والتميز الجامعي — حدد هدفك وتفوق',
+  taglineEn: 'Your premier platform for Tahsili, Qudrat, and University Academic Excellence — Hit Your Target',
+  shortBioAr: 'منصة تعليمية سعودية مصممة لمساعدة الطلاب على التفوق في اختبارات قياس والمساقات الجامعية من خلال مسارات ذكية وتدريب موجه نحو هدفك القادم.',
+  shortBioEn: 'A modern Saudi educational platform designed to empower students in standardized testing and university courses to achieve their target scores.',
+  supportEmail: 'contact@nexttarget.sa',
   supportPhone: '+966 11 000 0000',
   city: 'Riyadh, Saudi Arabia / الرياض، المملكة العربية السعودية',
   foundedYear: 2026,
@@ -18,13 +18,13 @@ export const BRAND_CONFIG = {
   // Architecture versioning
   version: '1.0.0-phase1',
 
-  // Social Links (demo / placeholder)
+  // Social Links
   social: {
-    twitter: 'https://twitter.com/first_edu_sa',
-    instagram: 'https://instagram.com/first_edu_sa',
-    linkedin: 'https://linkedin.com/company/first-edu',
-    youtube: 'https://youtube.com/@first_edu_sa',
-    telegram: 'https://t.me/first_edu_sa',
+    twitter: 'https://twitter.com/nexttarget_sa',
+    instagram: 'https://instagram.com/nexttarget_sa',
+    linkedin: 'https://linkedin.com/company/nexttarget-edu',
+    youtube: 'https://youtube.com/@nexttarget_sa',
+    telegram: 'https://t.me/nexttarget_sa',
   },
 
   // Color Tokens

@@ -4,12 +4,12 @@ export const FAQ_DATA: FaqItem[] = [
   {
     id: 'faq-1',
     category: 'general',
-    questionAr: 'ما هي First؟',
-    questionEn: 'What is First?',
+    questionAr: 'ما هي منصة نكست تارجت (Next Target)؟',
+    questionEn: 'What is Next Target?',
     answerAr:
-      'First هي منصة تعليمية سعودية متطورة تهدف إلى مساعدة الطلاب على التفوق في اختبارات قياس الوطنية (التحصيلي والقدرات) ومقررات السنة التحضيرية والسنوات التخصصية الجامعية عبر مسارات دراسية منظمة، تدريب مكثف، ومعلمين متخصصين.',
+      'Next Target (نكست تارجت) هي منصة تعليمية سعودية متطورة تهدف إلى مساعدة الطلاب على التفوق في اختبارات قياس الوطنية (التحصيلي والقدرات) ومقررات السنة التحضيرية والسنوات التخصصية الجامعية عبر مسارات دراسية منظمة، تدريب مكثف، ومعلمين متخصصين للوصول إلى هدفك الدراسي المنشود.',
     answerEn:
-      'First is a modern Saudi educational platform built to empower students to excel in national standardized testing (Tahsili & Qudrat) and collegiate university STEM subjects through structured study pathways, deliberate practice, and expert mentors.',
+      'Next Target is a modern Saudi educational platform built to empower students to achieve their target scores in national standardized testing (Tahsili & Qudrat) and collegiate university STEM subjects through structured study pathways, deliberate practice, and expert mentors.',
   },
   {
     id: 'faq-2',
@@ -57,9 +57,9 @@ export const FAQ_DATA: FaqItem[] = [
     questionAr: 'هل توجد دروس وجلسات مع معلمين متخصصين؟',
     questionEn: 'Are there interactive lessons with specialized mentors?',
     answerAr:
-      'نعم، ترتكز فلسفة First على التوجيه الأكاديمي الحقيقي من خلال محاضرات مباشرة وورش عمل تفاعلية ومعلمين ذوي خبرة يفهمون طبيعة أسئلة الاختبارات السعودية بدقة.',
+      'نعم، ترتكز فلسفة Next Target على التوجيه الأكاديمي الحقيقي من خلال محاضرات مباشرة وورش عمل تفاعلية ومعلمين ذوي خبرة يفهمون طبيعة أسئلة الاختبارات السعودية بدقة.',
     answerEn:
-      'Yes. The pedagogy of First centers on verified human mentorship, combining live masterclasses, interactive office hours, and deep pedagogical guidance from experienced instructors.',
+      'Yes. The pedagogy of Next Target centers on verified human mentorship, combining live masterclasses, interactive office hours, and deep pedagogical guidance from experienced instructors.',
   },
   {
     id: 'faq-7',
@@ -67,7 +67,7 @@ export const FAQ_DATA: FaqItem[] = [
     questionAr: 'هل يمكن إضافة مواد ومساقات جديدة مستقبلاً؟',
     questionEn: 'Can new subjects and tracks be added in the future?',
     answerAr:
-      'بكل تأكيد. تم بناء البنية البرمجية لمنصة First لتكون قابلة للتوسع الفوري لإضافة مواد مثل علوم الحاسب، البرمجة، الإحصاء، المحاسبة، والمواد الطبية والهندسية دون أي انقطاع في تجربة المستخدم.',
+      'بكل تأكيد. تم بناء البنية البرمجية لمنصة Next Target لتكون قابلة للتوسع الفوري لإضافة مواد مثل علوم الحاسب، البرمجة، الإحصاء، المحاسبة، والمواد الطبية والهندسية دون أي انقطاع في تجربة المستخدم.',
     answerEn:
       'Yes. The underlying data model allows instantaneous expansion to add subjects like Computer Science, Programming, Statistics, Accounting, and advanced Pre-Med curricula without altering core architecture.',
   },

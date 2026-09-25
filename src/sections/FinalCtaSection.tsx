@@ -22,7 +22,7 @@ export const FinalCtaSection: React.FC = () => {
           <div className="absolute inset-0">
             <img
               src={getAssetUrl('images/first_cta_bg.jpg')}
-              alt="First Futuristic Education Center"
+              alt="Next Target Futuristic Education Center"
               loading="lazy"
               className="w-full h-full object-cover object-center opacity-40 scale-105"
             />

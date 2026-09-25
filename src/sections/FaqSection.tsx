@@ -14,7 +14,7 @@ export const FaqSection: React.FC = () => {
 
   const categories = [
     { id: 'all', labelAr: 'جميع الأسئلة', labelEn: 'All Questions' },
-    { id: 'general', labelAr: 'عن المنصة', labelEn: 'About First' },
+    { id: 'general', labelAr: 'عن المنصة', labelEn: 'About Next Target' },
     { id: 'tracks', labelAr: 'المسارات والمواد', labelEn: 'Tracks & Subjects' },
     { id: 'learning', labelAr: 'الدروس والتعلم', labelEn: 'Learning & Mentors' },
     { id: 'accounts', labelAr: 'الحسابات', labelEn: 'Accounts' },
@@ -113,7 +113,7 @@ export const FaqSection: React.FC = () => {
             <p className="text-xs text-slate-400 mt-0.5">
               {isAr
                 ? 'فريق الدعم الأكاديمي جاهز للإجابة على جميع استفساراتك حول المنصة.'
-                : 'Our academic advisory team is ready to answer any questions about First.'}
+                : 'Our academic advisory team is ready to answer any questions about Next Target.'}
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export const FaqSection: React.FC = () => {
             size="sm"
             leftIcon={<MessageSquare className="w-4 h-4 text-emerald-400" />}
             onClick={() => {
-              window.location.href = 'mailto:contact@first-edu.sa?subject=First Inquiry';
+              window.location.href = 'mailto:contact@nexttarget.sa?subject=Next Target Inquiry';
             }}
           >
             {t.faq.contactBtn}

@@ -4,6 +4,7 @@ import { Button } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, ArrowRight, Sparkles, Compass, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import { getAssetUrl } from '../utils/assets';
+import { BRAND_CONFIG } from '../config/brand';
 
 export const HeroSection: React.FC = () => {
   const { language, direction, t } = useLanguage();
@@ -110,7 +111,7 @@ export const HeroSection: React.FC = () => {
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] bg-slate-950">
                 <img
                   src={getAssetUrl('images/first_hero_student.jpg')}
-                  alt="Saudi Student using First Education Platform"
+                  alt="Saudi Student using Next Target Education Platform"
                   fetchPriority="high"
                   className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"
                 />
@@ -124,7 +125,7 @@ export const HeroSection: React.FC = () => {
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping" />
                     <span className="font-bold">{t.hero.activeTrackCounter}</span>
                   </div>
-                  <span className="text-emerald-400 font-semibold text-[11px]">First Platform</span>
+                  <span className="text-emerald-400 font-semibold text-[11px]">{BRAND_CONFIG.nameEn}</span>
                 </div>
               </div>
 

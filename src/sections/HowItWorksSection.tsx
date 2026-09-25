@@ -84,8 +84,8 @@ export const HowItWorksSection: React.FC = () => {
             </h4>
             <p className="text-xs sm:text-sm text-slate-300 mt-1">
               {isAr
-                ? 'سؤال واحد يوضح لك كيف يكتشف نظام First نقاط ضعفك بدقة.'
-                : 'A single question demonstrates how First pinpoints your improvement areas.'}
+                ? 'سؤال واحد يوضح لك كيف يكتشف نظام Next Target نقاط ضعفك بدقة.'
+                : 'A single question demonstrates how Next Target pinpoints your improvement areas.'}
             </p>
           </div>
 
