@@ -7,6 +7,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
 import { SUBJECTS_DATA } from '../../data/subjects';
 import { CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 export const TrackDetailsModal: React.FC = () => {
   const { language, direction, t } = useLanguage();
@@ -44,7 +45,7 @@ export const TrackDetailsModal: React.FC = () => {
         {/* Banner with stats */}
         <div className="relative rounded-2xl overflow-hidden h-44 bg-slate-950 border border-slate-800">
           <img
-            src={activeTrackModal.image}
+            src={getAssetUrl(activeTrackModal.image)}
             alt={name}
             className="w-full h-full object-cover opacity-75"
           />

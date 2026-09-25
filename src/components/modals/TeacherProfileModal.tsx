@@ -5,6 +5,7 @@ import { Badge } from '../ui/Badge';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
 import { Star, Award, BookOpen, AlertCircle, Calendar } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 export const TeacherProfileModal: React.FC = () => {
   const { language, t } = useLanguage();
@@ -31,7 +32,7 @@ export const TeacherProfileModal: React.FC = () => {
         {/* Profile Card Header */}
         <div className="flex items-center gap-4 p-4 rounded-2xl bg-slate-950/60 border border-slate-800">
           <img
-            src={activeTeacherModal.avatar}
+            src={getAssetUrl(activeTeacherModal.avatar)}
             alt={name}
             className="w-20 h-20 rounded-2xl object-cover border-2 border-emerald-500/30 shrink-0"
           />

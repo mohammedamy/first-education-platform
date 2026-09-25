@@ -5,6 +5,7 @@ import { IconHelper } from '../ui/IconHelper';
 import { Badge } from '../ui/Badge';
 import { ArrowLeft, ArrowRight, CheckCircle2, ChevronRight, ChevronLeft } from 'lucide-react';
 import { SUBJECTS_DATA } from '../../data/subjects';
+import { getAssetUrl } from '../../utils/assets';
 
 interface TrackCardProps {
   track: Track;
@@ -46,7 +47,7 @@ export const TrackCard: React.FC<TrackCardProps> = ({
       {/* Top Banner Image with Gradient Overlay */}
       <div className="relative h-52 w-full overflow-hidden bg-slate-950">
         <img
-          src={track.image}
+          src={getAssetUrl(track.image)}
           alt={name}
           loading="lazy"
           className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-80"

@@ -4,6 +4,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { IconHelper } from '../ui/IconHelper';
 import { Clock, HelpCircle, BookOpen, ArrowLeft, ArrowRight } from 'lucide-react';
 import { TRACKS_DATA } from '../../data/tracks';
+import { getAssetUrl } from '../../utils/assets';
 
 interface SubjectCardProps {
   subject: Subject;
@@ -27,7 +28,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({ subject, onExplore }) 
       {/* Subject Visual Header */}
       <div className="relative h-44 w-full overflow-hidden bg-slate-950">
         <img
-          src={subject.image}
+          src={getAssetUrl(subject.image)}
           alt={name}
           loading="lazy"
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85"

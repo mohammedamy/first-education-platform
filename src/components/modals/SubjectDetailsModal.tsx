@@ -6,6 +6,7 @@ import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
 import { Clock, HelpCircle, BookOpen } from 'lucide-react';
 import { TRACKS_DATA } from '../../data/tracks';
+import { getAssetUrl } from '../../utils/assets';
 
 export const SubjectDetailsModal: React.FC = () => {
   const { language, t } = useLanguage();
@@ -30,7 +31,7 @@ export const SubjectDetailsModal: React.FC = () => {
         {/* Visual Banner */}
         <div className="relative rounded-2xl overflow-hidden h-40 bg-slate-950 border border-slate-800">
           <img
-            src={activeSubjectModal.image}
+            src={getAssetUrl(activeSubjectModal.image)}
             alt={name}
             className="w-full h-full object-cover opacity-80"
           />

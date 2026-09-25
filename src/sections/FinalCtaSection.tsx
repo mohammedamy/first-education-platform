@@ -2,6 +2,7 @@ import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components/ui/Button';
 import { ArrowLeft, ArrowRight, Compass, Sparkles, CheckCircle2 } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 export const FinalCtaSection: React.FC = () => {
   const { language, direction, t } = useLanguage();
@@ -20,7 +21,7 @@ export const FinalCtaSection: React.FC = () => {
           {/* Background Image with Cinematic Overlay */}
           <div className="absolute inset-0">
             <img
-              src="/images/first_cta_bg.jpg"
+              src={getAssetUrl('images/first_cta_bg.jpg')}
               alt="First Futuristic Education Center"
               loading="lazy"
               className="w-full h-full object-cover object-center opacity-40 scale-105"

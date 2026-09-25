@@ -3,6 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { ArrowLeft, ArrowRight, Sparkles, Compass, ShieldCheck, CheckCircle2 } from 'lucide-react';
+import { getAssetUrl } from '../utils/assets';
 
 export const HeroSection: React.FC = () => {
   const { language, direction, t } = useLanguage();
@@ -108,7 +109,7 @@ export const HeroSection: React.FC = () => {
             <div className="relative w-full max-w-lg lg:max-w-none rounded-3xl overflow-hidden p-2 bg-gradient-to-b from-slate-700/40 via-slate-800/20 to-emerald-500/20 shadow-2xl backdrop-blur-sm border border-slate-700/60 group">
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] bg-slate-950">
                 <img
-                  src="/images/first_hero_student.jpg"
+                  src={getAssetUrl('images/first_hero_student.jpg')}
                   alt="Saudi Student using First Education Platform"
                   fetchPriority="high"
                   className="w-full h-full object-cover object-center group-hover:scale-102 transition-transform duration-700"

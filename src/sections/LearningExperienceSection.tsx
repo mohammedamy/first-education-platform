@@ -3,6 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { SectionHeader } from '../components/ui/SectionHeader';
 import { Badge } from '../components/ui/Badge';
 import { Button } from '../components/ui/Button';
+import { getAssetUrl } from '../utils/assets';
 import {
   Play,
   CheckCircle2,
@@ -52,7 +53,7 @@ export const LearningExperienceSection: React.FC = () => {
         <div className="relative mb-14 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 group">
           <div className="relative aspect-[16/9] w-full max-h-[550px] overflow-hidden bg-slate-950">
             <img
-              src="/images/first_learning_mockup.jpg"
+              src={getAssetUrl('images/first_learning_mockup.jpg')}
               alt="First Student Learning Cockpit Mockup"
               loading="lazy"
               className="w-full h-full object-cover object-center group-hover:scale-101 transition-transform duration-700 opacity-90"
@@ -352,7 +353,7 @@ export const LearningExperienceSection: React.FC = () => {
                   </span>
                   <div className="flex items-center gap-3 mb-4">
                     <img
-                      src="/images/first_teacher_khalid.jpg"
+                      src={getAssetUrl('images/first_teacher_khalid.jpg')}
                       alt="Teacher"
                       className="w-12 h-12 rounded-xl object-cover border border-slate-700"
                     />

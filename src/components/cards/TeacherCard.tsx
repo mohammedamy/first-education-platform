@@ -3,6 +3,7 @@ import type { Teacher } from '../../types';
 import { useLanguage } from '../../context/LanguageContext';
 import { Badge } from '../ui/Badge';
 import { Star, Award, BookOpen } from 'lucide-react';
+import { getAssetUrl } from '../../utils/assets';
 
 interface TeacherCardProps {
   teacher: Teacher;
@@ -25,7 +26,7 @@ export const TeacherCard: React.FC<TeacherCardProps> = ({ teacher, onViewProfile
       {/* Teacher Portrait */}
       <div className="relative h-64 w-full overflow-hidden bg-slate-950">
         <img
-          src={teacher.avatar}
+          src={getAssetUrl(teacher.avatar)}
           alt={name}
           loading="lazy"
           className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
