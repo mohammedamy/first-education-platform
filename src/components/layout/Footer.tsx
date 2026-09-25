@@ -25,6 +25,9 @@ export const Footer: React.FC = () => {
           {/* Brand Info Column */}
           <div className="lg:col-span-2 flex flex-col gap-4">
             <BrandLogo size="lg" />
+            <p className="text-xs font-bold text-emerald-400/90 -mt-1">
+              {BRAND_CONFIG.legalName}
+            </p>
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
               {t.footer.statement}
             </p>

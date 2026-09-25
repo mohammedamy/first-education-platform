@@ -4,7 +4,7 @@ export const BRAND_CONFIG = {
   // Brand Identifier
   nameEn: 'Next Target',
   nameAr: 'نكست تارجت',
-  legalName: 'Next Target Education Technologies',
+  legalName: 'شركة نكست تارجت للتدريب والاستشارات (Next Target for Training & Consultancy)',
   taglineAr: 'منصتك الذكية لاجتياز التحصيلي، القدرات، والتميز الجامعي — حدد هدفك وتفوق',
   taglineEn: 'Your premier platform for Tahsili, Qudrat, and University Academic Excellence — Hit Your Target',
   shortBioAr: 'منصة تعليمية سعودية مصممة لمساعدة الطلاب على التفوق في اختبارات قياس والمساقات الجامعية من خلال مسارات ذكية وتدريب موجه نحو هدفك القادم.',
@@ -14,6 +14,16 @@ export const BRAND_CONFIG = {
   city: 'Riyadh, Saudi Arabia / الرياض، المملكة العربية السعودية',
   foundedYear: 2026,
   copyrightYear: 2026,
+
+  // Official Brand Assets Catalog
+  assets: {
+    logoDark: 'brand/next_target_logo_dark.png',
+    logoLight: 'brand/next_target_logo_light.png',
+    logoTransparent: 'brand/next_target_logo_transparent.png',
+    taglineDark: 'brand/next_target_tagline_dark.png',
+    taglineLight: 'brand/next_target_tagline_light.png',
+    showcaseTablet: 'brand/next_target_showcase_tablet.png',
+  },
 
   // Architecture versioning
   version: '1.0.0-phase1',
