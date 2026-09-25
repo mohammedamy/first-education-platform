@@ -4,11 +4,11 @@ import { LanguageSwitcher } from '../ui/LanguageSwitcher';
 import { Button } from '../ui/Button';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
-import { Menu, X, ArrowLeft, ArrowRight, User, Sparkles } from 'lucide-react';
+import { Menu, X, ArrowLeft, ArrowRight, User } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const { language, direction, t } = useLanguage();
-  const { openFutureAccountModal, setSelectedTrackId } = useTrackSelection();
+  const { openFutureAccountModal } = useTrackSelection();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 

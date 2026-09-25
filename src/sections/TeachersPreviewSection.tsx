@@ -5,15 +5,12 @@ import { SectionHeader } from '../components/ui/SectionHeader';
 import { TeacherCard } from '../components/cards/TeacherCard';
 import { Button } from '../components/ui/Button';
 import { TEACHERS_DATA } from '../data/teachers';
-import { ArrowLeft, ArrowRight, UserPlus, AlertCircle } from 'lucide-react';
+import { UserPlus, AlertCircle } from 'lucide-react';
 import type { Teacher } from '../types';
 
 export const TeachersPreviewSection: React.FC = () => {
-  const { language, direction, t } = useLanguage();
+  const { t } = useLanguage();
   const { setActiveTeacherModal, setIsJoinTeacherModalOpen } = useTrackSelection();
-
-  const isAr = language === 'ar';
-  const ArrowIcon = direction === 'rtl' ? ArrowLeft : ArrowRight;
 
   const handleViewProfile = (teacher: Teacher) => {
     setActiveTeacherModal(teacher);

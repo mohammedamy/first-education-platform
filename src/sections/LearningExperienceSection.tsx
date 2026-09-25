@@ -4,14 +4,11 @@ import { SectionHeader } from '../components/ui/SectionHeader';
 import { Badge } from '../components/ui/Badge';
 import { Button } from '../components/ui/Button';
 import {
-  Sparkles,
   Play,
   CheckCircle2,
   XCircle,
   Clock,
   Calendar,
-  BarChart3,
-  TrendingUp,
   BrainCircuit,
   ArrowRight,
   ArrowLeft,

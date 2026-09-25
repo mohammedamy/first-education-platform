@@ -4,7 +4,7 @@ import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
-import { Clock, HelpCircle, BookOpen, CheckCircle2 } from 'lucide-react';
+import { Clock, HelpCircle, BookOpen } from 'lucide-react';
 import { TRACKS_DATA } from '../../data/tracks';
 
 export const SubjectDetailsModal: React.FC = () => {

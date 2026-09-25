@@ -4,7 +4,7 @@ import { LanguageSwitcher } from '../ui/LanguageSwitcher';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
 import { BRAND_CONFIG } from '../../config/brand';
-import { Mail, Phone, MapPin, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Mail, MapPin, ShieldCheck } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   const { language, t } = useLanguage();

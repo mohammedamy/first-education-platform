@@ -4,7 +4,7 @@ import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
-import { Sparkles, CheckCircle2, User, Users, GraduationCap, Bell } from 'lucide-react';
+import { CheckCircle2, User, Users, GraduationCap, Bell } from 'lucide-react';
 
 export const FutureAccountModal: React.FC = () => {
   const { language, t } = useLanguage();

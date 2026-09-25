@@ -14,7 +14,6 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
   className = '',
   size = 'md',
   showTagline = false,
-  variant = 'auto',
   onClick,
 }) => {
   const { language } = useLanguage();

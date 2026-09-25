@@ -5,7 +5,6 @@ import { SectionHeader } from '../components/ui/SectionHeader';
 import { SubjectCard } from '../components/cards/SubjectCard';
 import { SUBJECTS_DATA } from '../data/subjects';
 import { TRACKS_DATA } from '../data/tracks';
-import type { Subject } from '../types';
 
 export const SubjectExplorerSection: React.FC = () => {
   const { language, t } = useLanguage();

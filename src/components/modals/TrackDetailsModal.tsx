@@ -6,7 +6,7 @@ import { IconHelper } from '../ui/IconHelper';
 import { useLanguage } from '../../context/LanguageContext';
 import { useTrackSelection } from '../../context/TrackSelectionContext';
 import { SUBJECTS_DATA } from '../../data/subjects';
-import { CheckCircle2, Clock, Users, ArrowRight, ArrowLeft } from 'lucide-react';
+import { CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react';
 
 export const TrackDetailsModal: React.FC = () => {
   const { language, direction, t } = useLanguage();
