@@ -15,6 +15,7 @@ This directory contains the complete archive of official brand identity assets, 
 | [`next_target_tagline_dark.png`](./next_target_tagline_dark.png) | Subtitle Banner | Dark / Navy (`#031E3D`) | Official corporate title banner: `TRAINING & CONSULTANCY / شركة نكست تارجت للتدريب والاستشارات` with white typography on navy. |
 | [`next_target_tagline_light.png`](./next_target_tagline_light.png) | Subtitle Banner | Light / White (`#FFFFFF`) | Official corporate title banner: `TRAINING & CONSULTANCY / شركة نكست تارجت للتدريب والاستشارات` with dark navy typography on white. |
 | [`next_target_showcase_tablet.png`](./next_target_showcase_tablet.png) | UI Showcase | Showcase & Hero | Tablet & iPad device mockup displaying interactive learning metrics and student radar charts. |
+| [`next_target_learning_mockup.jpg`](./next_target_learning_mockup.jpg) | High-Res Cockpit Mockup | Showcase & Social | Official 16:9 photorealistic office mockup featuring Next Target branded tablet cockpit and branded corporate coffee mug. |
 
 ---
 

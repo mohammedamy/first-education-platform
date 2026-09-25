@@ -152,7 +152,7 @@ export const Footer: React.FC = () => {
               <li>
                 <button
                   type="button"
-                  onClick={() => scrollTo('#why-first')}
+                  onClick={() => scrollTo('#why-next-target')}
                   className="hover:text-emerald-400 transition-colors cursor-pointer"
                 >
                   {isAr ? 'عن المنصة وفلسفتنا' : 'About Platform'}

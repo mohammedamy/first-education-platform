@@ -15,7 +15,7 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>(() => {
-    const saved = localStorage.getItem('first_edu_lang') as Language;
+    const saved = (localStorage.getItem('next_target_lang') || localStorage.getItem('first_edu_lang')) as Language;
     return saved === 'en' ? 'en' : 'ar';
   });
 
@@ -25,7 +25,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   useEffect(() => {
     document.documentElement.lang = language;
     document.documentElement.dir = direction;
-    localStorage.setItem('first_edu_lang', language);
+    localStorage.setItem('next_target_lang', language);
 
     if (language === 'ar') {
       document.body.classList.remove('font-sans-en');

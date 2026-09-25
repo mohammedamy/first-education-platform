@@ -23,6 +23,7 @@ export const BRAND_CONFIG = {
     taglineDark: 'brand/next_target_tagline_dark.png',
     taglineLight: 'brand/next_target_tagline_light.png',
     showcaseTablet: 'brand/next_target_showcase_tablet.png',
+    learningMockup: 'brand/next_target_learning_mockup.jpg',
   },
 
   // Architecture versioning

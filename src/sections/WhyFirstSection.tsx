@@ -10,7 +10,8 @@ export const WhyFirstSection: React.FC = () => {
   const isAr = language === 'ar';
 
   return (
-    <section id="why-first" className="py-20 sm:py-28 bg-slate-950/70 relative">
+    <section id="why-next-target" className="py-20 sm:py-28 bg-slate-950/70 relative">
+      <span id="why-first" className="sr-only" aria-hidden="true" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           badge={t.whyFirst.sectionBadge}

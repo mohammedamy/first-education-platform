@@ -164,7 +164,7 @@ export const en = {
     terms: 'Terms of Service',
     privacy: 'Privacy Policy',
     safety: 'Data & Security Charter',
-    copyright: 'All rights reserved. Next Target Education Technologies © 2026',
+    copyright: 'All rights reserved. Next Target for Training & Consultancy © 2026',
     temporaryNotice: 'Next Target Platform — Phase 1 Release',
     saudiVisionNotice: 'Proudly empowering national academic potential across the Kingdom of Saudi Arabia',
   },

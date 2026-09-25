@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
     { label: t.nav.tracks, href: '#tracks' },
     { label: t.nav.subjects, href: '#subjects' },
     { label: t.nav.howItWorks, href: '#how-it-works' },
-    { label: t.nav.whyFirst, href: '#why-first' },
+    { label: t.nav.whyFirst, href: '#why-next-target' },
     { label: t.nav.teachers, href: '#teachers' },
     { label: t.nav.learningExp, href: '#learning-experience' },
     { label: t.nav.faq, href: '#faq' },

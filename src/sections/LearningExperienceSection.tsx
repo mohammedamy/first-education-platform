@@ -53,7 +53,7 @@ export const LearningExperienceSection: React.FC = () => {
         <div className="relative mb-14 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 group">
           <div className="relative aspect-[16/9] w-full max-h-[550px] overflow-hidden bg-slate-950">
             <img
-              src={getAssetUrl('images/first_learning_mockup.jpg')}
+              src={getAssetUrl('images/next_target_learning_mockup.jpg')}
               alt="Next Target Student Learning Cockpit Mockup"
               loading="lazy"
               className="w-full h-full object-cover object-center group-hover:scale-101 transition-transform duration-700 opacity-90"
