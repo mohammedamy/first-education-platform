@@ -1,9 +1,9 @@
 <svg width="64" height="64" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="2" y="2" width="40" height="40" rx="12" fill="#0B132B" stroke="#10B981" stroke-width="2" />
-  <circle cx="22" cy="22" r="13" stroke="#34D399" stroke-width="1.5" stroke-dasharray="4 2" opacity="0.6" />
-  <circle cx="22" cy="22" r="7.5" stroke="#10B981" stroke-width="1.5" />
-  <path d="M11 22H21" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" />
-  <path d="M16 16L22 22L16 28" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-  <circle cx="22" cy="22" r="3" fill="#F59E0B" />
-  <circle cx="22" cy="22" r="1.5" fill="#FFFFFF" />
+  <rect x="2" y="2" width="40" height="40" rx="12" fill="#031E3D" stroke="#10B981" stroke-width="2" />
+  <!-- Left bar of N -->
+  <path d="M10 32V12H16V26L10 32Z" fill="#8DC63F" />
+  <!-- Diagonal arrow of N shooting up-right -->
+  <path d="M10 32L26 12M26 12H19M26 12V19" stroke="#8DC63F" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Right bar of N -->
+  <path d="M22 32V20H28V32H22Z" fill="#8DC63F" />
 </svg>
